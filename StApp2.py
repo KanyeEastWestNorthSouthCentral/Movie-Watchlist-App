@@ -70,7 +70,7 @@ st.title("🎬 MOVIE WATCHLIST")
 # 1. Clean dropdown navigation (removes circle radio buttons)
 menu_choice = st.sidebar.selectbox(
     "Menu", 
-    ["1. Add Movie", "2. View Watchlist", "3. Mark Movie as Watched"]
+    ["Add Movie", "View Watchlist", "Mark Movie as Watched"]
 )
 
 st.sidebar.divider()
