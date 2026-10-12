@@ -81,9 +81,9 @@ if st.sidebar.button("💾 Save Watchlist", use_container_width=True):
     st.sidebar.success("Saved successfully!")
 
 # Display selected page content
-if menu_choice == "1. Add Movie":
+if menu_choice == "Add Movie":
     add_movie(st.session_state.watchList)
-elif menu_choice == "2. View Watchlist":
+elif menu_choice == "View Watchlist":
     view_movies(st.session_state.watchList)
-elif menu_choice == "3. Mark Movie as Watched":
+elif menu_choice == "Mark Movie as Watched":
     mark_watched(st.session_state.watchList)
